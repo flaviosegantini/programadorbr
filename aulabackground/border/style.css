@@ -1,0 +1,14 @@
+html{
+    background-color: gray;
+}
+
+div{
+    background-color: rgb(64, 64, 64);
+    margin-left: auto;
+    
+}
+div>ul>li{
+    display: inline;
+    cursor: pointer;
+    
+}
