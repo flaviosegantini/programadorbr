@@ -75,6 +75,8 @@ footer{
     align-items: center;
     justify-content: space-between;      
     padding-left: 5%;
+    width: 100vw;
+    margin-left: 0;
 }
 footer > img{
     width: 20%;
