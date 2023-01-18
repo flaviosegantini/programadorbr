@@ -1,0 +1,31 @@
+.quadrado{
+    height: 400px;
+    width: 500px;
+    border: 1px solid black;
+    margin-left: 30px;
+    position: relative;
+    
+}
+.caixa1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    
+}
+.caixa2{
+    background-color: blue;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 0px;
+    bottom: 0px;
+    
+    
+}
+.caixa3{
+    background-color: rgb(21, 255, 0);
+    height: 100px;
+    width: 100px;
+    
+
+}
