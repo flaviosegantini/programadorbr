@@ -5,6 +5,14 @@
     font-family: 'GFS Didot', serif;
    
 }
+:root{
+    --cor01: #575F66;
+    --cor02:#0E3961;
+    --cor03: #1F83E0;
+    --cor04: #4D9BE6;
+    --cor05: #B8A88D;
+    --cor06: #BDAA6F;
+}
 
 header{
     display: flex;
@@ -31,12 +39,17 @@ nav > a:hover{
     border-radius: 10px;
     background-color: gray;
     
+    
 }
 main{
-    background-color: #404040;
+    background-color: var(--cor02);
     color: #B8A88D;
     margin: auto;   
     text-align: center;
+    max-width: 800px;
+    min-width: 320px;
+    padding-left: 30px;
+    padding-right: 30px;
     
 }
 h1, h2{
@@ -46,8 +59,9 @@ h1, h2{
 
 h2{
     background-image: linear-gradient(#b6aa85, #3b382d);
-    max-width: 70%;
-    margin: auto;
+    max-width: 100%;
+    
+    
 }
 h1:hover, h2:hover{
     cursor: pointer;
@@ -60,12 +74,13 @@ p{
     text-decoration: none;
     max-width: 600px;
     margin: auto;
+    text-decoration: justify;
 }
 img{
     width: 100%;
-    height: 350px;
-    background-position: cover;
+    height: 350px;    
     background-repeat: no-repeat;
+    background-position: center center;
     margin-top: 30px;
     margin-bottom: 30px;
 
