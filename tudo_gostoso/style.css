@@ -20,7 +20,7 @@ header{
     background-size: cover;
     height: 200px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     width: 100vw;
     height: 400px;
 }
