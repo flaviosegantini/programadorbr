@@ -14,13 +14,14 @@
 }
 header{
     background-color: #666665;
-    height: 70px;
+    height: 15px;
     width: 100%;
     font-size: 1.5em;
     font-weight: bolder;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
     color: #E6BC85;
+    padding-bottom: 20px;
         
 }
 a{
@@ -30,13 +31,18 @@ a{
     padding-right: 30px;
     text-transform: uppercase;
     
-
-}
-main > picture{
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 20px;
     
 
+}
+main{
+    max-width: 600px;
+    min-width: 320px;
+    background-image: url('imagens/banner-home-2.jpg');
+    margin: auto;    
+    height: 98vh;
+    background-size: cover;
+    background-position: center center;
+}
+body{
+    background-color: azure;
 }
