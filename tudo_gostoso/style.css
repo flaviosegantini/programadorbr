@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+
 header{
     width: 100vw;
     height: 40px;
@@ -17,12 +18,11 @@ header{
 }
 .bolo{
     background-image: url(imagens/pexels-elli-1854652.jpg);
-    background-size: cover;
-    height: 200px;
+    background-size: cover;    
     background-repeat: no-repeat;
     background-position: center center;
-    width: 100vw;
-    height: 400px;
+    height: 98vh;
+    
 }
 .content > h1{
     color: orange;
