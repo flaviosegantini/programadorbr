@@ -11,31 +11,54 @@
     --marroncla: #CC862B;
     --claro: #E6BC85;
     --marronesc: #4D3210;
+    --dom: #434343;
+    --letras: #616161;
 }
 header{
-    background-color: #666665;
-    height: 15px;
+    background-color: white;
+    height: 55px;
     width: 100%;
-    font-size: 1.5em;
-    font-weight: bolder;
+    display: inline-flex;
+    align-items: center;
+    margin: auto;     
+    justify-content: space-around;    
+}
+.barra{
+    background-color: #434343;
+}
+.title{ 
+    padding-bottom: 20px; 
     padding-top: 20px;
     padding-left: 10px;
-    color: #E6BC85;
-    padding-bottom: 20px;
-        
-}
-a{
-    color: #E6BC85;
-    float: right;  
-    font-size: 0.6em;
-    padding-right: 30px;
-    text-transform: uppercase;
-    
-    
+    color: #616161;
+    font-size: 08px;
+    flex-direction: column;
+    line-height: 10px;
+    text-align: center;
 
 }
+span{
+    color: red;
+}
+
+.lista{
+    padding: 30px;   
+    text-transform: uppercase;
+    word-spacing: 20px;
+    
+}
+a{
+    color: #616161;;
+    font-size: 0.6em;    
+}
+a:hover{
+    color: black;
+    text-shadow: 2px 2px 18px rgba(0, 0, 0, 0.377);
+    font-weight: bold;
+    transition: 1.5ms all;
+}
 main{
-    max-width: 600px;
+    max-width: 100%;
     min-width: 320px;
     background-image: url('imagens/banner-home-2.jpg');
     margin: auto;    
@@ -44,5 +67,5 @@ main{
     background-position: center center;
 }
 body{
-    background-color: azure;
+    background-color: #434343;
 }
