@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+header{
+    background-color: black;
+    height: 70px;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.548);
+    
+}
+#livro{
+    background-image: url(imagens/background002.jpg);
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*max-width: 800px;
+    min-width: 320px;*/
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 8px black;
+}
+#joaninha{
+    background-image: url(imagens/background001.jpg);
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*max-width: 800px;
+    min-width: 320px;*/
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 8px black;
+}
+.dentro{
+    padding-top: 30px;
+    padding-left: 20px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.479);
+    width: 70%;
+    
+}
+p{
+    text-align: justify;
+    line-height: 2em;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+footer{
+    background-color: black;
+    height: 30px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+}
