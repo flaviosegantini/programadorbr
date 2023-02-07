@@ -1,13 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulários</title>
+    <title>Document</title>
+    
+    <style>
+        body{
+            background-color: gray;
+        
+        }
+    </style>
 </head>
 <body>
-    
+    <form action="cadastro.php" method="get">
+        <p><label for="name">Name: </label>
+            <input type="text" name="name" id="iname" required placeholder="Digite seu nome" maxlength="8" minlength="3" autocomplete="on">
+
+        </p>
+        <p>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="isobrenome" required placeholder="Digite seu sobrenome" maxlength="10" minlength="10" autocomplete="on">
+        </p>
+        <p>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha de 8 caracteres" maxlength="6" minlength="6" autocomplete="off" size="30">
+
+        </p>
+        <p>
+            <label for="enviar">Enviar</label>
+            <input type="submit" value="Enviar ->" required>
+        </p>
+        <p>
+            <label for="month">Data</label>
+            <input type="month" name="month" id="imonth" required>
+
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="iemail" required placeholder="Digite seu email">
+        </p>
+        <p>
+            <label for="search">Search</label>
+            <input type="search" name="search" id="isearch">
+        </p>
+    </form>
+
     
 </body>
 </html>
