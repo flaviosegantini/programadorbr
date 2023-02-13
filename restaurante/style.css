@@ -1,4 +1,87 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --corfundo: #404040;
+    --corlet: #B7A16F;
+    --corlet: #373737;
+    --corlet3: #ADADAB;
+    --rodape: #282828;
+}
+.barra1{
+    background-color: #404040;
+    height: 8px;
+}
+header{
+    display: flex;
+    padding-top: 15px;
+    background-color: white;
+    color: #373737;
+    height: 30px;
+    justify-content: space-around;
+}
+.logo{
+    font-variant: small-caps;
+    text-align: center;
+    line-height: 8px;
+}
+a{
+    color: #373737;
+    padding: 7px;
+}
+.barra{
+    background-color: #404040;
+    height: 13px;
+}
+picture img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 98vh;
+    width: 
+    100%;
+    display: block;
+}
+
+.loc{
+    background-color: #404040;
+    color: #B7A16F;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+.loc > p > hr{
+    color: #282828;
+}
+
+main{
+    display: flex;
+    background-color: #404040;
+    color: #ADADAB;
+    line-height: 25px;
+}
+aside{
+    padding-left: 25px;
+}
+.conteudo{
+    padding-left: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+.destaque{
+    color: #B7A16F;
+}
+main a{
+    color: #B7A16F;
+}
+footer{
+    background-color: #282828;
+    color: #ADADAB;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    padding: 15px;
 }
