@@ -36,13 +36,12 @@ a{
     background-color: #404040;
     height: 13px;
 }
-picture img{
+img{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 98vh;
-    width: 
-    100%;
+    width: 100vw;
     display: block;
 }
 
