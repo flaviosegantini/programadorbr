@@ -36,7 +36,8 @@ a{
     background-color: #404040;
     height: 13px;
 }
-img{
+picture{
+    background-image: url(imagens/banner-home-2.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -51,16 +52,16 @@ img{
     font-weight: bold;
     text-align: center;
     padding: 30px;
+    border-bottom: 2px solid #282828;
 }
-.loc > p > hr{
-    color: #282828;
-}
+
 
 main{
     display: flex;
     background-color: #404040;
     color: #ADADAB;
     line-height: 25px;
+    padding-top: 20px;
 }
 aside{
     padding-left: 25px;
