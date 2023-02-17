@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <div class="cel">
+        <header id="img"></header>
+        <div id="content">
+            <section>
+                <h1 id="login">login</h1>
+                <p>Seja bem-vindo novamente! <br> Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            </section>
+            <form action="cadastro.php" method="post">
+                <label for="iname"></label>
+                <input type="text" name="name" id="iname" placeholder="Nome de usuário" minlength="3" maxlength="8" required>
+                <label for="isenha"></label>
+                <input type="password" name="senha" id="isenha" required minlength="4" maxlength="10" placeholder="Digite sua senha">
+                <label for="ientrar"></label>
+                <input type="text" name="entrar" id="ientrar" placeholder="Entrar ->">
+                <label for="iesqueci"></label>
+                <input type="text" name="esqueci" id="iesqueci" placeholder="Esqueceu sua senha?">
+            </form>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
