@@ -17,7 +17,7 @@ html, body{
 .cel{
     position: absolute;
     background-color: white;
-    height: 450px;
+    height: 500px;
     width: 250px;
     top: 50%;
     left: 50%;
@@ -42,7 +42,7 @@ html, body{
     display: block;
     padding: 10px;
     text-align: justify;
-    margin-bottom: 15px;
+    margin-bottom: 2px;
     
 }
 #content > section > #login{
@@ -56,11 +56,18 @@ html, body{
 }
 #content > .cel > form{
     display: block;
-    margin-top: 7px;
+    margin-top: 2px;
 }
 form{
     margin: auto;
     padding-left: 15px;
     
+        
+}
+.int{
+    background-color: lightblue;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    padding: 5px;
     
 }

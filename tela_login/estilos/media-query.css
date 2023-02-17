@@ -8,7 +8,7 @@
         position: relative;
     }
     .cel{
-        position: absolute;
+        
         width: 80%;
         height: 50%;
         top: 50%;
@@ -17,11 +17,20 @@
     }
     #img{
         float: left;
+        width: 50%;
+        height: 100%;
+        margin-right: 20px;
     }
-    #content{
-        float: right;
+    section{
+        max-width: 100%;
+        margin-bottom: 30px;
     }
     
+    form > .int{
+        display: block;
+        margin-top: 20px;
+    }
+   
 }
 @media screen and (min-width: 992px) {
     html, body{
