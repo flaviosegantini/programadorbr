@@ -4,10 +4,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 }
 html, body{
     background: linear-gradient(rgb(71, 8, 129), lightgray);
-    
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -60,14 +60,18 @@ html, body{
 }
 form{
     margin: auto;
-    padding-left: 15px;
-    
-        
+    padding: 0 15px;
+    background-color: rgb(247, 150, 150);
 }
 .int{
     background-color: lightblue;
     border-radius: 5px;
     margin-bottom: 2px;
     padding: 5px;
-    
+    margin-bottom: 7px;    
 }
+form > input[type=text] {
+    background-color: green;
+
+}
+
