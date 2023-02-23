@@ -18,9 +18,32 @@
                     <label for="inome"></label>
                     <input type="text" name="nome" id="inome" placeholder="Nome">
                     <label for="iemail"></label>
-                    <input type="email" name="email" id="iemail" placeholder="Email">
-                    <label for="cidade"></label>
-                    <input type="search" name="cidade" id="icidade" style="display: block;">
+                    <input type="email" name="email" id="iemail" placeholder="Email" autocomplete="email">
+                    <div class="estados">
+                        <label for="iestado"></label>
+                        <select name="estado" id="iestado">
+                            <optgroup label="Região Sul">
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="PR">Paraná</option>
+                            </optgroup>
+                            <optgroup label="Região Sudeste">
+                                <option value="SP">São Paulo</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="ES">Espítito Santo</option>
+                                <option value="MG">Minas Gerais</option>
+                            </optgroup>
+                            <optgroup label="Região Norte">
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="GO">Goiás</option>
+                                <option value="TO">Tocantins</option>
+                                <option value="AM">Amazonas</option>
+                            </optgroup>
+                        </select>
+                    </div>                    
+                    
                     <label for="inscreva-se"></label>
                     <input type="submit" value="INSCREVA-SE" style="display: block;">
                 </form>

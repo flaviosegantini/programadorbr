@@ -63,7 +63,7 @@ aside > .foto{
     
 }
 
-form > input[type=text], input[type=email], input[type=search], input[type=submit]{
+form > input[type=text], input[type=email], input[type=submit], .estados{
     height: 25px;
     margin-bottom: 4px;
     margin-left: 20px;
