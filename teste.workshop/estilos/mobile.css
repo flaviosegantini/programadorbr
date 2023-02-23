@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.quadro{
+    background-color: rgb(61, 61, 61);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    height: 600px;
+    transform: translate(-50%, -50%);    
+}
+header{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(64, 64, 226);
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.img{
+    background-image: url(../imagens/pexels-josh-sorenson-976866.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50%;
+}
+.img > .mini-quadro{    
+    background-color: rgba(255, 255, 255, 0.541);
+    margin-left: 60%;
+    height: 290px;
+    
+}
+aside > .foto{
+    background-image: url(../imagens/palestrante.jpg);
+    height: 30px;
+    width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+    
+}
+.mini-quadro > h1{
+    font-size: 14px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.mini-quadro > p{
+    padding: 10px;
+    font-size: 14px;
+    
+}
+
+form > input[type=text], input[type=email], input[type=search], input[type=submit]{
+    height: 25px;
+    margin-bottom: 4px;
+    margin-left: 20px;
+}
+
+aside > .foto{
+    margin-top: 60px;
+    height: 180px;
+    width: 150px;
+    float: left;
+    margin-left: 30px;
+    transform: translateY(-30%);
+}
+aside{
+    margin-top: 50px;
+    color: white;
+    font-size: 14px;
+    max-width: 90%;
+    text-align: justify;
+}
+article{
+    margin-left: 200px;
+}
+aside h1{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+aside h1:hover{
+    text-decoration: underline;
+    transition: 0.6s;
+    box-shadow: 1p 1px 5px black;
+}
+.btn{
+    color: white;
+    border: 1px solid black;
+    max-width: 70%;
+    margin: auto;
+
+}
