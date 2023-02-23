@@ -1,0 +1,44 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .img{
+        background-image: url(imagens/rocco\ e\ ivy.jpeg);
+    }
+    .celular{
+        width: 80%;
+    }
+    section > p{
+        max-width: 70%;
+        margin: auto;
+        margin-bottom: 40px;
+        
+    }
+    
+}
+@media screen and (min-width: 992px)  {
+    
+    
+    .img{
+        float: right;
+        background-image: url(imagens/pexels-pixabay-276514.jpg);
+        
+        
+    }
+    .celular{
+        width: 90%;
+        height: 70%;
+        
+    }
+    main{
+        float: left;
+        margin: auto;
+        width: 40%;
+        height: 100%;
+    }
+    section > p{
+        max-width: 70%;
+        
+        margin-bottom: 40px;
+        
+    }
+    
+    
+}
