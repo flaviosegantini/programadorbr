@@ -5,12 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/mobile2.css">
+    <link rel="stylesheet" href="estilos/midia-query2.css">
     <title>Document</title>
 </head>
 <body>
     <div class="quadro">
         <div class="img"></div>
-        <div class="mini-quadro"></div>
+        <div class="mini-quadro">
+            <h1>garanta o seu lugar no workshop do maior especialista em marketing dda atualidade</h1>
+                <p>Neste evento, você vai aprender todos os segredos que vão te fazer ser um empreendedor de sucesso sem precisar contar com a sorte.</p>
+                <form action="cadastro.php" method="get">
+                    <label for="inome"></label>
+                    <input type="text" name="nome" id="inome" placeholder="Nome">
+                    <label for="iemail"></label>
+                    <input type="email" name="email" id="iemail" placeholder="Email" autocomplete="email">
+                    <div class="estados">
+                        <label for="iestado"></label>
+                        <select name="estado" id="iestado">
+                            <optgroup label="Região Sul">
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="PR">Paraná</option>
+                            </optgroup>
+                            <optgroup label="Região Sudeste">
+                                <option value="SP">São Paulo</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="ES">Espítito Santo</option>
+                                <option value="MG">Minas Gerais</option>
+                            </optgroup>
+                            <optgroup label="Região Norte">
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="GO">Goiás</option>
+                                <option value="TO">Tocantins</option>
+                                <option value="AM">Amazonas</option>
+                            </optgroup>
+                        </select>
+                    </div>                    
+                    
+                    <label for="inscreva-se"></label>
+                    <input type="submit" value="INSCREVA-SE" style="display: block;">
+                </form>
+
+        </div>
     </div>
     
 </body>

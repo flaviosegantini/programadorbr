@@ -1,0 +1,35 @@
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background: linear-gradient(rgb(14, 14, 78),
+        rgb(41, 41, 41));
+    }
+    .quadro{
+        width: 80%;
+    }
+    .mini-quadro{
+        width: 180px;
+        left: 67%;
+        
+    }
+    .mini-quadro > h1{
+        font-size: 11.5px;
+    }
+    .mini-quadro p{
+        font-size: 12px;
+    }
+    form > input{
+       
+        margin: 0 5px 0 5px;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+    div.estados {
+        width: 90%;
+        background-color: black;
+        
+    }
+    form > input .estados{
+        background-color: black;
+    }
+}
