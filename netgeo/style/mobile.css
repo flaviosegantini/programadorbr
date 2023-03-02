@@ -12,40 +12,126 @@ body{
 }
 #quadro{
     background-color: white;
-    height: 515px;
-    width: 800px;
+    height: 615px;
+    width: 450px;
     margin: auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 20px;
-   
+    border-radius: 20px;   
+    overflow: hidden;
 }
 header{
-    background-color: aqua;
-    overflow: hidden; 
-    height: 150px;
-    width: 100%;
+    background-color: black;
+    height: 50px;
+    display: flex;
     justify-content: space-around;
-    position: relative;
-}
-.logo{
-    position: absolute;
-    background-image: url(../imagens/logo.076935b282c6ed1795adf208833aabb4.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;       
-    height: 40px;
-    width: 40px;
-    margin: 10px;
-    float: left;
+    
     
 }
-#select{
-    position: absolute;
-    padding-right: 20px;
-    width: 10px;
-    float: right;
-    background-color: black;
+
+div.logo > img{
+    height: 40px;
+    width: 40px;
+    
 }
+a{
+    color: white;
+    font-size: 9px;
+    padding-top: 20px;
+    
+    
+}
+#um{
+    position: relative;
+    height: 190px;
+    width: 100%;
+    background-image: url(../imagens/mathilda-khoo-2aBgL3nj_OQ-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#dois{
+    position: relative;
+    height: 190px;
+    width: 100%;
+    background-image: url(../imagens/aves.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tres{
+    position: relative;
+}
+#direita{
+    position: absolute;
+    height: 190px;
+    width: 50%;
+    background-image: url(../imagens/alce.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#esquerda{
+    position: absolute;
+    height: 190px;
+    width: 50%;
+    background-image: url(../imagens/british.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 50%;
+    
+}
+.divum{
+    height: 140px;
+    width: 85px;
+    background-color: rgba(0, 0, 0, 0.562);
+    position: absolute;
+    top: 20px;
+    left: 30px; 
+    border-top: 3px solid #F1CE14;
+    overflow: hidden;
+    
+}
+.divum h3, p{
+    color: white;
+    font-size: 8px;
+    padding: 5px;
+    
+}
+.divdois{
+    height: 120px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0.336);
+    position: absolute;
+    top: 20px;
+    left: 300px; 
+    border-top: 3px solid #F1CE14;
+    overflow: hidden;
+}
+.divdois h3, p{
+    color: white;
+    font-size: 8px;
+    padding: 5px;   
+}
+
+.divtres{
+    height: 55px;
+    width: 185px;
+    background-color: rgba(0, 0, 0, 0.603);
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    border-top: 3px solid #F1CE14;
+    transform: translate(-50%, 450%);
+    overflow: hidden;
+}
+.divtres h3, p{
+    color: white;
+    font-size: 8px;
+    padding: 5px; 
+}
+     
