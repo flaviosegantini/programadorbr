@@ -1,0 +1,106 @@
+@media screen and (min-width: 786px) and (max-width: 992px){
+ 
+    #quadro{
+        width: 70%;
+    }
+    .divum{
+        
+        left: 130px;     
+}
+    .divum h3, .divdois h3, .divtres h3{
+        color: white;
+        font-size: 14px;
+    
+}
+    .divum p, .divdois p, .divtres p{
+        font-size: 12px;
+
+}
+.divdois{
+       
+    left: 480px;     
+}
+#caixadois{
+    left: 20%;
+
+}
+.divtres{
+    top: 50%;
+}
+
+
+    
+}
+
+
+
+@media screen and (min-width: 992px) {
+    #quadro{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+    }
+    .divum{
+        height: 140px;
+        width: 260px;        
+        left: 730px;     
+}
+    .divum h3{
+        color: white;
+        font-size: 18px;
+    
+}
+    .divum p{
+        font-size: 14px;
+
+}
+    .divdois{
+        height: 140px;
+        width: 260px;        
+        left: 230px;     
+}
+    .divdois h3{
+        color: white;
+        font-size: 18px;
+
+}
+    .divdois p{
+        font-size: 14px;
+}
+.divtres{
+    height: 140px;
+    width: 260px;        
+    left: 50%;     
+    top: -20%;
+}
+.divtres h3{
+    color: white;
+    font-size: 18px;
+
+}
+.divtres p{
+    font-size: 14px;
+    
+} 
+#direita{
+    height: 230px;
+}
+#esquerda{
+    height: 230px;
+}
+#caixaum{
+    height: 160px;
+    width: 100px;
+    top: 11%;    
+}
+#caixadois{
+    height: 160px;
+    width: 100px;
+    
+}
+#caixatres{
+    height: 160px;
+    width: 100px;
+    
+}
+}   
