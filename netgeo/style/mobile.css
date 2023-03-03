@@ -23,6 +23,8 @@ body{
     border-radius: 20px;   
     overflow: hidden;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.678);
+    transition: width .3s, height .03s;
+    transition-timing-function: ease;
 }
 header{
     background-color: black;
@@ -127,10 +129,22 @@ a:hover{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    top: 30%;
-    left: 10%;
-    
+    top: 25%;
+    left: 10%;    
     position: absolute;
+}
+#read{
+    position: absolute;
+    background-color: black;
+    top: 93%;
+    left: 32%;
+    font-size: 7px;
+    color: white;
+    padding: 2px;
+    width: 65px;
+    border-right: 5px solid #F1CE14;
+    padding-left: 15px;
+
 }
 .divdois h3, p{
     color: white;

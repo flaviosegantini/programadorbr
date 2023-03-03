@@ -44,6 +44,20 @@
     font-size: 7px;
     max-width: 70%;
 }
+#montanha{
+    top: 25%;
+    left: 10%;
+        
+    
+}
+#montanha > p{
+    font-size: 9px;
+}
+#read{
+    top: 78%;
+    left: 35%;
+    font-size: 7px;
+}
 
     
 }
@@ -84,8 +98,8 @@
         font-size: 14px;
 }
 .divtres{
-    height: 140px;
-    width: 260px;        
+    height: 150px;
+    width: 485px;        
     left: 50%;     
     top: -20%;
 }
@@ -131,5 +145,20 @@
 .mini-quadro p{
     font-size: 8px;
     max-width: 70%;
+}
+
+#montanha{
+    top: 35%;
+    left: 10%;
+    height: 65%;
+}
+
+#montanha p{
+    font-size: 9px;
+}
+#read{
+    top: 87%;
+    left: 72%;
+    font-size: 7px;
 }
 }   
