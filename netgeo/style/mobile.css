@@ -176,3 +176,15 @@ a:hover{
     color: rgb(77, 72, 72);
     padding-left: 20px;
 }
+.mini-quadro{
+    height: 50%;
+    background-color: rgb(192, 190, 190);
+}
+.mini-quadro h6{
+    color: rgb(77, 72, 72);
+    padding: 5px;
+    font-size: 7px;
+}
+.mini-quadro p{
+    font-size: 5px;
+}
