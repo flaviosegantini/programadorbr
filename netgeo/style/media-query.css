@@ -3,18 +3,23 @@
     #quadro{
         width: 70%;
     }
-    .divum{
-        
+    .divum{       
         left: 130px;     
 }
-    .divum h3, .divdois h3, .divtres h3{
+    .divum h3, .divtres h3{
         color: white;
         font-size: 14px;
     
 }
-    .divum p, .divdois p, .divtres p{
+.divdois h3,{
+    font-size: 13px;
+}
+    .divum p, .divtres p{
         font-size: 12px;
 
+}
+.divdois p{
+    font-size: 8px;
 }
 .divdois{
        
@@ -27,7 +32,18 @@
 .divtres{
     top: 50%;
 }
-
+.mini-quadro{
+    overflow: hidden;
+}
+.mini-quadro h6{
+    color: rgb(77, 72, 72);
+    padding: 5px;
+    font-size: 10px;
+}
+.mini-quadro p{
+    font-size: 7px;
+    max-width: 70%;
+}
 
     
 }
@@ -102,5 +118,18 @@
     height: 160px;
     width: 100px;
     
+}
+.mini-quadro{
+    height: 50%;
+    background-color: rgb(192, 190, 190);
+}
+.mini-quadro h6{
+    color: rgb(77, 72, 72);
+    padding: 5px;
+    font-size: 10px;
+}
+.mini-quadro p{
+    font-size: 8px;
+    max-width: 70%;
 }
 }   

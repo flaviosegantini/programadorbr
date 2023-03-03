@@ -122,6 +122,16 @@ a:hover{
     border-top: 3px solid #F1CE14;
     overflow: hidden;
 }
+#montanha{
+    background-image: url(../imagens/montanha.avif);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 30%;
+    left: 10%;
+    
+    position: absolute;
+}
 .divdois h3, p{
     color: white;
     font-size: 8px;
